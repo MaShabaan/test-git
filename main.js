@@ -1,0 +1,20 @@
+document.write("<div> Elzero </div>");
+document.querySelector("div").style.color="blue";
+document.querySelector("div").style.fontSize="80px";
+document.querySelector("div").style.textAlign="center";
+document.querySelector("div").style.fontFamily="arial";
+console.log("%c Elzero %c web %c school" ,"color:red ;font-size:40px ;font-weight:bold","color:green ; font-size:40px ; font-weight:bold" , "color:white ; background-color:blue ; font-size:40px ; font-weight:bold");
+console.group("level 1");
+console.log("m1");
+console.log("m2");
+console.group(" child level");
+console.log("m3");
+console.log("m4");
+console.groupEnd();
+console.groupEnd();
+console.group("level 2");
+console.log("m1");
+console.log("m2");
+console.table(["elZero" , "ali ","ahmed"]);
+/*console.log("Iam In Console");
+document.write("Iam In Page");*/
